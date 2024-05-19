@@ -39,5 +39,5 @@ If you are a native german speaker and can help with the translations, then plea
 
 Thanks to use @Commander at Forum64.de for uploading the original software.
 
-You should also check out https://github.com/Commodore-Bench/DELA-EPROMMER-II
-And https://archive.org/details/dela-eprommer-ii-software-eng-den
+You should also check out the project by Commodore-Bench https://github.com/Commodore-Bench/DELA-EPROMMER-II
+And manuals uploaded to archive at https://archive.org/details/dela-eprommer-ii-software-eng-den
