@@ -22,15 +22,15 @@ For basic usage you can start the first program with LOAD"DE*",8,1 or you other 
 | ---| --- |
 | .$ | Convert HEX in DEC
 | .= | Convert DEC in HEX
-| .L | Load L"NAME",08 Loads program according to original address |
-| .S | Save S "NAME",08,A-Adr.,E-Adr.+1 Saves program |
-| .F | Filling F 1000 2000 FF - Fills memory from 1000 to 2000 with the value #FF. |
-| .M | Memory display M 2000 or M 2000 2 100 - displays the range in hexadecimal and decimal respectively |
-| .D | Disassemble D 1000 or D 1000 1100 - Disassembles the range from $1000 |
-| .T | Transfer T 1000 2000 4000 Moves the range from 1000 to 2000 after 4000 |
-| .G | Go G 1000 - Starts a program from address 1000 |
-| .H | Hunt H 2000 3000 45 46 47 - Searches the range from 2000 to 3000 using the byte sequence 45 46 47 |
-| .N | New locate N 4000 5000 3000 1000 2000 - After moving a memory area to another, this function recalculates the absolute jump addresses so that the program is then ready to run. |
+| .L Load | L"NAME",08 Loads program according to original address |
+| .S Save | S "NAME",08,A-Adr.,E-Adr.+1 Saves program |
+| .F Filling | F 1000 2000 FF - Fills memory from 1000 to 2000 with the value #FF. |
+| .M Memory | display M 2000 or M 2000 2 100 - displays the range in hexadecimal and decimal respectively |
+| .D Disassemble | D 1000 or D 1000 1100 - Disassembles the range from $1000 |
+| .T Transfer | T 1000 2000 4000 Moves the range from 1000 to 2000 after 4000 |
+| .G Go | G 1000 - Starts a program from address 1000 |
+| .H Hunt | H 2000 3000 45 46 47 - Searches the range from 2000 to 3000 using the byte sequence 45 46 47 |
+| .N New | locate N 4000 5000 3000 1000 2000 - After moving a memory area to another, this function recalculates the absolute jump addresses so that the program is then ready to run. |
 
 
 If you are a native german speaker and can help with the translations, then please send a pull request or open an issue.
