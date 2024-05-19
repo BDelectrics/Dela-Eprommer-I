@@ -8,7 +8,8 @@ The hardware has been recreated as fas as possible. The traces are routed like t
 
 As of the current date the recreated board has not been tested. I should not that the Z1 Zener diode should be 16V.
 
-> [!WARNING] There are many more capable and compatible eprom-burners for the C64. Please research other alternatives before even considering this one. This repo is more for troubleshooting/conservation purposes.
+> [!WARNING]
+> There are many more capable and compatible eprom-burners for the C64. Please research other alternatives before even considering this one. This repo is more for troubleshooting/conservation purposes.
 
 ## Software
 I have provided both the original software and a crudely translated version to english.
@@ -34,4 +35,9 @@ For basic usage you can start the first program with LOAD"DE*",8,1 or you other 
 
 If you are a native german speaker and can help with the translations, then please send a pull request or open an issue.
 
+## Thanks
+
 Thanks to use @Commander at Forum64.de for uploading the original software.
+
+You should also check out https://github.com/Commodore-Bench/DELA-EPROMMER-II
+And https://archive.org/details/dela-eprommer-ii-software-eng-den
